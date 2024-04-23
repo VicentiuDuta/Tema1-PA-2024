@@ -12,7 +12,7 @@ Problema 3: Compresie
 
 Problema 4: Criptat
     
-    In cadrul implementarii task-ului 4, am inceput prin a construi un alfabet format din toate literele cuvintelor. Apoi, pentru fiecare litera din alfabet, am sortat vectorul dupa numarul de aparitii al literei respective, raportat la lungimea cuvantului. In cazul in care rapoartele erau egale, am ales cuvantul cu lungimea mai mare. Dupa sortare, am luat rand pe rand cuvintele si am verificat daca conditia ca litera dominanta sa aiba mai multe aparitii decat jumatate din lungimea parolei ramane adevarata, iar in acest caz am adaugat cuvantul in parola de la pasul curent. La fiecare pas, verific daca parola curenta este mai lunga decat alta parola obtinuta la pasii anterior, iar in caz afirmativ lungimea maxima va deveni lungimea parolei de la pasul curent. Complexitatea algoritmului este O(n).
+    In cadrul implementarii task-ului 4, am inceput prin a construi un alfabet format din toate literele cuvintelor. Apoi, pentru fiecare litera din alfabet, am sortat vectorul dupa numarul de aparitii al literei respective, raportat la lungimea cuvantului. In cazul in care rapoartele erau egale, am ales cuvantul cu lungimea mai mare. Dupa sortare, am luat rand pe rand cuvintele si am verificat daca conditia ca litera dominanta sa aiba mai multe aparitii decat jumatate din lungimea parolei ramane adevarata, iar in acest caz am adaugat cuvantul in parola de la pasul curent. La fiecare pas, verific daca parola curenta este mai lunga decat alta parola obtinuta la pasii anterior, iar in caz afirmativ lungimea maxima va deveni lungimea parolei de la pasul curent. Complexitatea algoritmului este O(n log n).
 
 Problema 5: Oferta
     
